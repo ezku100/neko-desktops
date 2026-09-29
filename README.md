@@ -1,0 +1,35 @@
+# Neko Desktops — plasmoides para Plasma 6
+
+Dos paginadores de escritorios virtuales para KDE Plasma 6, fork de Mike Desktop:
+
+- **Neko Desktop** (`com.ezku.nekodesktop`): solo-iconos artístico. 11 estilos dibujados a mano: Caelestia pacman, espada Hyrulian, Trifuerza, Creeper, Corazones, Pokébola, Pikachu, estrella Mario, Esfera del Dragón, Kirby y Kitty. Focus blanco, ocupados morados, puntito tenue si vacío.
+- **Kanji Desktop** (`com.ezku.kanjidesktop`): solo-texto minimalista. 6 formatos: arábigos, romanos, hiragana japonés, kanji, ancho completo y dados.
+
+Ambos con integración al color del sistema, espaciado y soporte de rueda del ratón.
+
+## Instalar (súper fácil)
+
+Opción 1 — 1 clic:
+```bash
+./install.sh
+```
+
+Opción 2 — desde Plasma:
+1. Clic derecho en panel/escritorio → Añadir widgets → Obtener nuevos → Instalar desde archivo
+2. Selecciona el `.plasmoid` del Release (o la carpeta `com.ezku.nekodesktop`)
+3. Busca "Neko Desktop" o "Kanji Desktop" y añádelo
+
+Opción 3 — manual:
+```bash
+cp -r com.ezku.nekodesktop ~/.local/share/plasma/plasmoids/
+cp -r com.ezku.kanjidesktop ~/.local/share/plasma/plasmoids/
+nohup plasmashell --replace >/tmp/plasmashell.log 2>&1 &
+```
+
+> No es un único archivo: cada plasmoide es una carpeta con varios `.qml` + `metadata.json`. El `install.sh` usa `kpackagetool6` para que sea 1 comando.
+
+## Créditos
+
+- Base: MikeDevQH (michaelqhdez@gmail.com)
+- Fork y estilos Neko: ezku
+- Licencia: GPLv3
