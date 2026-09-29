@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+    http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+<kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="indicatorStyle" type="Enum">
+            <label>Indicator style</label>
+            <choices>
+                <choice name="Caelestia"/>
+                <choice name="Hyrulian"/>
+                <choice name="Triforce"/>
+                <choice name="Creeper"/>
+                <choice name="Hearts"/>
+                <choice name="Pokeball"/>
+                <choice name="Pikachu"/>
+                <choice name="Mario"/>
+                <choice name="Dragonball"/>
+                <choice name="Kirby"/>
+                <choice name="Kitty"/>
+            </choices>
+            <default>0</default>
+        </entry>
+        <entry name="enableScroll" type="Bool">
+            <label>Enable scroll to change desktop</label>
+            <default>true</default>
+        </entry>
+        <entry name="scrollCyclic" type="Bool">
+            <label>Cyclic scrolling</label>
+            <default>false</default>
+        </entry>
+        <entry name="useSystemColors" type="Bool">
+            <label>Use system colors</label>
+            <default>true</default>
+        </entry>
+    </group>
+
+    <group name="Caelestia">
+        <entry name="caeActiveSize" type="Int"><label>Focused (pacman) size</label><default>18</default></entry>
+        <entry name="caeOccupiedSize" type="Int"><label>Occupied size</label><default>10</default></entry>
+        <entry name="caeEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="caeGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="caeMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="caeMouthAngle" type="Int"><label>Pacman mouth angle</label><default>35</default></entry>
+        <entry name="caeAnimate" type="Bool"><label>Animate pacman bite</label><default>true</default></entry>
+        <entry name="caeShowGlyph" type="Bool"><label>Show ghost on occupied</label><default>true</default></entry>
+        <entry name="caeActiveColor" type="String"><label>Focused color</label><default>#FFFFFF</default></entry>
+        <entry name="caeOccupiedColor" type="String"><label>Occupied color</label><default>#FFFFFF</default></entry>
+        <entry name="caeEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="caeEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Hyrulian">
+        <entry name="hyrActiveSize" type="Int"><label>Sword size</label><default>20</default></entry>
+        <entry name="hyrOccupiedSize" type="Int"><label>Rupee size</label><default>10</default></entry>
+        <entry name="hyrEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="hyrGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="hyrMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="hyrGlow" type="Bool"><label>Sword glow</label><default>true</default></entry>
+        <entry name="hyrBladeColor" type="String"><label>Blade color</label><default>#E8E8E8</default></entry>
+        <entry name="hyrGoldColor" type="String"><label>Gold color</label><default>#E8B800</default></entry>
+        <entry name="hyrGripColor" type="String"><label>Grip color</label><default>#3B5BFD</default></entry>
+        <entry name="hyrOccupiedColor" type="String"><label>Rupee color</label><default>#00E676</default></entry>
+        <entry name="hyrEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="hyrEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Triforce">
+        <entry name="triActiveSize" type="Int"><label>Triforce size</label><default>20</default></entry>
+        <entry name="triOccupiedSize" type="Int"><label>Shard size</label><default>10</default></entry>
+        <entry name="triEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="triGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="triMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="triGlow" type="Bool"><label>Triforce glow</label><default>true</default></entry>
+        <entry name="triActiveColor" type="String"><label>Triforce color</label><default>#FFFFFF</default></entry>
+        <entry name="triOccupiedColor" type="String"><label>Shard color</label><default>#FFFFFF</default></entry>
+        <entry name="triEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="triEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Creeper">
+        <entry name="creActiveSize" type="Int"><label>Creeper size</label><default>20</default></entry>
+        <entry name="creOccupiedSize" type="Int"><label>TNT size</label><default>12</default></entry>
+        <entry name="creEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="creGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="creMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="creSkinColor" type="String"><label>Creeper skin</label><default>#4CAF50</default></entry>
+        <entry name="creFaceColor" type="String"><label>Creeper face</label><default>#141414</default></entry>
+        <entry name="creTntColor" type="String"><label>TNT color</label><default>#E53935</default></entry>
+        <entry name="creBandColor" type="String"><label>TNT band</label><default>#FFFFFF</default></entry>
+        <entry name="creEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="creEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Hearts">
+        <entry name="heaActiveSize" type="Int"><label>Full heart size</label><default>20</default></entry>
+        <entry name="heaOccupiedSize" type="Int"><label>Half heart size</label><default>14</default></entry>
+        <entry name="heaEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="heaGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="heaMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="heaFullColor" type="String"><label>Full heart color</label><default>#FFFFFF</default></entry>
+        <entry name="heaHalfColor" type="String"><label>Half heart color</label><default>#FFFFFF</default></entry>
+        <entry name="heaBaseOpacity" type="Int"><label>Half heart base opacity</label><default>35</default></entry>
+        <entry name="heaEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="heaEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Pokeball">
+        <entry name="pokActiveSize" type="Int"><label>Pokeball size</label><default>20</default></entry>
+        <entry name="pokOccupiedSize" type="Int"><label>Mini ball size</label><default>12</default></entry>
+        <entry name="pokEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="pokGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="pokMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="pokBallColor" type="String"><label>Ball color</label><default>#FFFFFF</default></entry>
+        <entry name="pokBandColor" type="String"><label>Band color</label><default>#FFFFFF</default></entry>
+        <entry name="pokEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="pokEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Pikachu">
+        <entry name="pikActiveSize" type="Int"><label>Face size</label><default>20</default></entry>
+        <entry name="pikOccupiedSize" type="Int"><label>Tail size</label><default>12</default></entry>
+        <entry name="pikEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="pikGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="pikMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="pikFaceColor" type="String"><label>Face color</label><default>#FFFFFF</default></entry>
+        <entry name="pikDetailColor" type="String"><label>Details color</label><default>#FFFFFF</default></entry>
+        <entry name="pikEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="pikEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Mario">
+        <entry name="marActiveSize" type="Int"><label>Star size</label><default>20</default></entry>
+        <entry name="marOccupiedSize" type="Int"><label>Block size</label><default>12</default></entry>
+        <entry name="marEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="marGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="marMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="marCapColor" type="String"><label>Cap color</label><default>#FFFFFF</default></entry>
+        <entry name="marSpotColor" type="String"><label>Eyes color</label><default>#FFFFFF</default></entry>
+        <entry name="marCoinColor" type="String"><label>Block color</label><default>#FFFFFF</default></entry>
+        <entry name="marEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="marEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Dragonball">
+        <entry name="draActiveSize" type="Int"><label>Ball size</label><default>20</default></entry>
+        <entry name="draOccupiedSize" type="Int"><label>Mini ball size</label><default>12</default></entry>
+        <entry name="draEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="draGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="draMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="draBallColor" type="String"><label>Ball color</label><default>#FFFFFF</default></entry>
+        <entry name="draStarColor" type="String"><label>Stars color</label><default>#FFFFFF</default></entry>
+        <entry name="draEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="draEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Kirby">
+        <entry name="kirActiveSize" type="Int"><label>Face size</label><default>20</default></entry>
+        <entry name="kirOccupiedSize" type="Int"><label>Mini size</label><default>12</default></entry>
+        <entry name="kirEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="kirGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="kirMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="kirFaceColor" type="String"><label>Face color</label><default>#FFFFFF</default></entry>
+        <entry name="kirDetailColor" type="String"><label>Details color</label><default>#FFFFFF</default></entry>
+        <entry name="kirEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="kirEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+    <group name="Kitty">
+        <entry name="kitActiveSize" type="Int"><label>Face size</label><default>20</default></entry>
+        <entry name="kitOccupiedSize" type="Int"><label>Paw size</label><default>12</default></entry>
+        <entry name="kitEmptySize" type="Int"><label>Empty dot size</label><default>6</default></entry>
+        <entry name="kitGap" type="Int"><label>Gap between indicators</label><default>2</default></entry>
+        <entry name="kitMargin" type="Int"><label>Panel margin</label><default>2</default></entry>
+        <entry name="kitFaceColor" type="String"><label>Cat color</label><default>#FFFFFF</default></entry>
+        <entry name="kitPawColor" type="String"><label>Paw color</label><default>#FFFFFF</default></entry>
+        <entry name="kitEmptyColor" type="String"><label>Empty color</label><default>#FFFFFF</default></entry>
+        <entry name="kitEmptyOpacity" type="Int"><label>Empty opacity</label><default>40</default></entry>
+    </group>
+
+</kcfg>

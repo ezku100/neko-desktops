@@ -1,0 +1,30 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "michaelqhdez@gmail.com",
+                "Name": "MikeDevQH"
+            },
+            {
+                "Name": "ezku"
+            }
+        ],
+        "Category": "Windows & Tasks",
+        "Description": "Artistic icon-only virtual desktop pager for Plasma 6 (Neko Desktop). Eleven hand-drawn styles: Caelestia pacman, Hyrulian sword, Triforce, Creeper, Hearts, Pokeball, Pikachu, Mario star, Dragonball, Kirby and Kitty. White focus, purple occupied, dim dot when empty. System color integration, spacing and mouse wheel support.",
+        "Description[es]": "Paginador de escritorios virtuales artístico solo-iconos para Plasma 6 (Neko Desktop). Once estilos dibujados a mano: pacman Caelestia, espada Hyrulian, Trifuerza, Creeper, Corazones, Pokébola, Pikachu, estrella Mario, Esfera del Dragón, Kirby y Kitty. Focus blanco, ocupados morados, puntito tenue si vacío. Colores del sistema, espaciado y scroll del ratón.",
+        "Icon": "virtual-desktops",
+        "Id": "com.ezku.nekodesktop",
+        "License": "GPLv3",
+        "Name": "Neko Desktop",
+        "Name[es]": "Neko Desktop",
+        "Name[fr]": "Neko Desktop",
+        "Name[de]": "Neko Desktop",
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.virtualdesktops"
+    ]
+}
