@@ -13,6 +13,12 @@ Ambos con integración al color del sistema, espaciado y soporte de rueda del ra
 
 ![Ajustes con los 11 estilos](screenshots/neko-settings.png)
 
+## Capturas (Kanji Desktop)
+
+![Kanji en el panel](screenshots/kanji-panel.png)
+
+![Ajustes con los 6 formatos](screenshots/kanji-settings.png)
+
 ## Instalar (súper fácil)
 
 Opción 1 — 1 clic:
