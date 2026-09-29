@@ -1,0 +1,30 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "michaelqhdez@gmail.com",
+                "Name": "MikeDevQH"
+            },
+            {
+                "Name": "ezku"
+            }
+        ],
+        "Category": "Windows & Tasks",
+        "Description": "Minimal text-only virtual desktop pager for Plasma 6 (fork of Mike Desktop). Six number formats: Arabic, Roman, Japanese Hiragana, Kanji, Fullwidth and Dice. Focus gets bold, desktops with windows share the active color, empty ones go dim. System color integration, spacing and mouse wheel support.",
+        "Description[es]": "Paginador de escritorios virtuales minimalista solo-texto para Plasma 6 (fork de Mike Desktop). Seis formatos: arábigos, romanos, japonés hiragana, kanji, ancho completo y dados. El focus lleva bold, los escritorios con ventanas comparten su color y los vacíos se atenúan. Colores del sistema, espaciado y scroll del ratón.",
+        "Icon": "virtual-desktops",
+        "Id": "com.ezku.kanjidesktop",
+        "License": "GPLv3",
+        "Name": "Kanji Desktop",
+        "Name[es]": "Kanji Desktop",
+        "Name[fr]": "Kanji Desktop",
+        "Name[de]": "Kanji Desktop",
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.virtualdesktops"
+    ]
+}
