@@ -1,11 +1,9 @@
-# Neko Desktops — plasmoides para Plasma 6
+# Neko Desktops
 
-Dos paginadores de escritorios virtuales para KDE Plasma 6, fork de Mike Desktop:
+Widgets para cambiar de escritorio en Plasma 6.
 
-- **Neko Desktop** (`com.ezku.nekodesktop`): solo-iconos artístico. 11 estilos dibujados a mano: Caelestia pacman, espada Hyrulian, Trifuerza, Creeper, Corazones, Pokébola, Pikachu, estrella Mario, Esfera del Dragón, Kirby y Kitty. Focus blanco, ocupados morados, puntito tenue si vacío.
-- **Kanji Desktop** (`com.ezku.kanjidesktop`): solo-texto minimalista. 6 formatos: arábigos, romanos, hiragana japonés, kanji, ancho completo y dados.
-
-Ambos con integración al color del sistema, espaciado y soporte de rueda del ratón.
+- **Neko Desktop**: con iconos, 11 estilos para elegir.
+- **Kanji Desktop**: con texto, 6 formatos de números.
 
 ## Capturas (Neko Desktop)
 
