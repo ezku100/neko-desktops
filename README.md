@@ -29,6 +29,6 @@ Manual: descarga los `.plasmoid` desde [Releases](https://github.com/ezku100/nek
 
 ## Créditos
 
-- Base: MikeDevQH (michaelqhdez@gmail.com)
+- Basado en [Mike Desktop](https://github.com/MikeDevQH/plasma6-widget-desktop) de MikeDevQH
 - Fork y estilos Neko: ezku
 - Licencia: GPLv3
