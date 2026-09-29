@@ -5,13 +5,10 @@ cd "$(dirname "$0")"
 
 install_one() {
   local pkg="$1"
-  local id="$1"
-  # metadata Id es el mismo que la carpeta
-  if kpackagetool6 -t Plasma/Applet -s "$id" >/dev/null 2>&1; then
-    echo "↻ Actualizando $id..."
-    kpackagetool6 -t Plasma/Applet -u "$pkg"
+  if kpackagetool6 -t Plasma/Applet -u "$pkg"; then
+    echo "↻ $pkg actualizado."
   else
-    echo "＋ Instalando $id..."
+    echo "＋ Instalando $pkg..."
     kpackagetool6 -t Plasma/Applet -i "$pkg"
   fi
 }
