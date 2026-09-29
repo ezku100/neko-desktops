@@ -7,6 +7,12 @@ Dos paginadores de escritorios virtuales para KDE Plasma 6, fork de Mike Desktop
 
 Ambos con integración al color del sistema, espaciado y soporte de rueda del ratón.
 
+## Capturas (Neko Desktop)
+
+![Neko en el panel](screenshots/neko-panel.png)
+
+![Ajustes con los 11 estilos](screenshots/neko-settings.png)
+
 ## Instalar (súper fácil)
 
 Opción 1 — 1 clic:
