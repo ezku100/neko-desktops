@@ -3,3 +3,4 @@ Thumbs.db
 *~
 *.log
 build/
+dist/
