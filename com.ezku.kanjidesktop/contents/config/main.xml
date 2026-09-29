@@ -13,7 +13,7 @@
                 <choice name="Numbers"/>
                 <choice name="Labels"/>
             </choices>
-            <default>0</default>
+            <default>1</default>
         </entry>
         <entry name="enableScroll" type="Bool">
             <label>Enable scroll to change desktop</label>
@@ -59,7 +59,7 @@
                 <choice name="Fullwidth"/>
                 <choice name="Dice"/>
             </choices>
-            <default>0</default>
+            <default>3</default>
         </entry>
         <entry name="numFontSize" type="Int"><label>Font size (0 = auto)</label><default>0</default></entry>
         <entry name="numFontBold" type="Bool"><label>Bold</label><default>false</default></entry>
