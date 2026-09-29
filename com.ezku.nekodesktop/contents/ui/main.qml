@@ -44,6 +44,8 @@ PlasmoidItem {
         id: tasksModel
         sortMode: TaskManager.TasksModel.SortDisabled
         groupMode: TaskManager.TasksModel.GroupDisabled
+        screenGeometry: Plasmoid.containment.screenGeometry
+        filterByScreen: Plasmoid.configuration.onlyCurrentScreen
         onCountChanged: Qt.callLater(root.updateWindowMap)
         onDataChanged: Qt.callLater(root.updateWindowMap)
     }

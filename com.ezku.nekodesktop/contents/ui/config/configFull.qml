@@ -15,6 +15,7 @@ KCM.SimpleKCM {
     property alias cfg_enableScroll: enableScroll.checked
     property alias cfg_scrollCyclic: scrollCyclic.checked
     property alias cfg_useSystemColors: useSystemColors.checked
+    property alias cfg_onlyCurrentScreen: onlyCurrentScreen.checked
 
     property alias cfg_caeActiveSize: caeActiveSize.value
     property alias cfg_caeOccupiedSize: caeOccupiedSize.value
@@ -198,6 +199,12 @@ KCM.SimpleKCM {
             id: useSystemColors
             Kirigami.FormData.label: i18n("Colors:")
             text: i18n("Use system colors")
+        }
+
+        QtControls.CheckBox {
+            id: onlyCurrentScreen
+            Kirigami.FormData.label: i18n("Screen:")
+            text: i18n("Only this screen")
         }
 
         // ═══════════════════════════════════════

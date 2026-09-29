@@ -35,6 +35,10 @@
             <label>Use system colors</label>
             <default>true</default>
         </entry>
+        <entry name="onlyCurrentScreen" type="Bool">
+            <label>Only this screen</label>
+            <default>true</default>
+        </entry>
     </group>
 
     <group name="Caelestia">
