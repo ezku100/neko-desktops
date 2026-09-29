@@ -25,7 +25,7 @@ cd neko-desktops
 ./install.sh
 ```
 
-Sin git: descarga los `.plasmoid` desde [Releases](https://github.com/ezku100/neko-desktops/releases/latest) y en Plasma ve a Añadir widgets → Obtener nuevos → Instalar desde archivo.
+Manual: descarga los `.plasmoid` desde [Releases](https://github.com/ezku100/neko-desktops/releases/latest), luego clic derecho en el panel → Añadir o gestionar elementos gráficos → Obtener nuevos → Instalar desde archivo.
 
 ## Créditos
 
