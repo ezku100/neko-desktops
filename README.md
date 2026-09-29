@@ -17,7 +17,7 @@ Widgets para cambiar de escritorio en Plasma 6.
 
 ![Ajustes con los 6 formatos](screenshots/kanji-settings.png)
 
-## Instalar (súper fácil)
+## Instalar
 
 ```bash
 git clone https://github.com/ezku100/neko-desktops.git
@@ -25,15 +25,7 @@ cd neko-desktops
 ./install.sh
 ```
 
-Otras formas:
-
-- Desde Plasma: clic derecho en panel/escritorio → Añadir widgets → Obtener nuevos → Instalar desde archivo, selecciona el `.plasmoid` del Release.
-- Manual:
-```bash
-cp -r com.ezku.nekodesktop ~/.local/share/plasma/plasmoids/
-cp -r com.ezku.kanjidesktop ~/.local/share/plasma/plasmoids/
-nohup plasmashell --replace >/tmp/plasmashell.log 2>&1 &
-```
+Sin git: descarga los `.plasmoid` desde [Releases](https://github.com/ezku100/neko-desktops/releases/latest) y en Plasma ve a Añadir widgets → Obtener nuevos → Instalar desde archivo.
 
 ## Créditos
 
